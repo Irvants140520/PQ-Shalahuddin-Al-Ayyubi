@@ -1,0 +1,22 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://pqsa.ac.id/sitemap.xml
+
+# Disallow crawling of admin pages or sensitive directories
+Disallow: /admin/
+Disallow: /wp-admin/
+Disallow: /cgi-bin/
+Disallow: /private/
+
+# Allow all other pages
+Allow: /*.html
+Allow: /*.css
+Allow: /*.js
+Allow: /*.jpg
+Allow: /*.png
+Allow: /*.svg
+Allow: /*.webp
+
+# Crawl-delay to be respectful to the server
+Crawl-delay: 1
