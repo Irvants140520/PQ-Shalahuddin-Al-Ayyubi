@@ -97,10 +97,7 @@ function Hero() {
                   showContent ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'
                 }`} style={{transitionDelay: '600ms'}}>
                   <p className="text-xl md:text-2xl font-semibold text-[var(--light-green)] mb-2 font-serif">
-                    "Menjadi Pelindung dan Pelayan Al Quran"
-                  </p>
-                  <p className="text-lg text-white/80">
-                    Wujudkan impian menghafal Al-Qur'an dengan program tahfidz berkualitas tinggi
+                    "Menjadi Penjaga dan Pelayan Al Quran"
                   </p>
                 </div>
 
@@ -156,4 +153,5 @@ function Hero() {
     console.error('Hero component error:', error);
     return null;
   }
+
 }
